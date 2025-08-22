@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom";
 
 
 export default function Home() {
@@ -9,7 +10,7 @@ export default function Home() {
       <h2>Initial exercises suggested by ChatGPT:</h2>
       <ol>
         <li>
-          <h3>Click Counter (Counter App)</h3>
+          <h3><Link to={"/counter"}>Click Counter (Counter App)</Link></h3>
           <ul>
             <li>Use <code>useState</code> to store the counter value.</li>
             <li>Add 2 buttons: <code>+1</code> and <code>-1</code>.</li>

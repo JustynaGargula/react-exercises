@@ -9,7 +9,7 @@ function App() {
     <>
       <Router>
         <nav>
-          <Link to={"/"}>Home</Link>
+          <Link to={"/"} className="homeLink">Home</Link>
           <Link to={"/counter"}>Counter</Link>
         </nav>
 

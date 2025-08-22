@@ -20,7 +20,7 @@ export default function Home() {
         </li>
 
         <li>
-          <h3>User Form</h3>
+          <h3><Link to={"/form"}>User Form</Link></h3>
           <ul>
             <li>Create a form with fields: <strong>name</strong>, <strong>email</strong>.</li>
             <li>After clicking <code>Save</code>, display the entered user data below the form.</li>
@@ -77,6 +77,17 @@ export default function Home() {
             <li>Display them as thumbnails.</li>
             <li>Clicking a thumbnail shows the image in a larger view.</li>
             <li className="practice">You will practice: list mapping, passing props.</li>
+          </ul>
+        </li>
+      </ol>
+
+      <h2>Other ideas</h2>
+      <ol>
+        <li>
+          Improve navbar
+          <ul>
+            <li>Highlight the current open link</li>
+            <li>Style home page link in other way</li>
           </ul>
         </li>
       </ol>

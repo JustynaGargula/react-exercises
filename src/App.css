@@ -26,3 +26,22 @@ a:hover {
 h3 a {
   color: white;
 }
+label {
+  margin-right: 10px;
+}
+
+.field {
+  margin: 10px 10px 10px 0px;
+}
+
+.indentedParagraph {
+  padding-left: 30px;
+}
+
+button[type="submit"] {
+  border:  solid forestgreen;
+}
+
+.resetButton {
+  border: solid firebrick;
+}

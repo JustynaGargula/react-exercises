@@ -31,7 +31,7 @@ export default function Home() {
         </li>
 
         <li>
-          <h3>List Filtering</h3>
+          <h3><Link to={"/list-filter"}>List Filtering</Link></h3>
           <ul>
             <li>You have an array of products (e.g., <code>["apple", "banana", "pear"]</code>).</li>
             <li>Add an input field where the user can type text.</li>
@@ -81,15 +81,32 @@ export default function Home() {
         </li>
       </ol>
 
-      <h2>Other ideas</h2>
+      <h2>My or others ideas</h2>
       <ol>
         <li>
-          Improve navbar
+          <h3>Improve navbar</h3>
           <ul>
             <li>Highlight the current open link</li>
             <li>Style home page link in other way</li>
           </ul>
         </li>
+
+        <li>
+          <h3>To the top button</h3>
+          <ul>
+            <li>Add button to move view to the top of the website</li>
+            <li>Make sure it works on all views</li>
+          </ul>
+        </li>
+
+        <li>
+          <h3>Make collapsable list</h3>
+          <ul>
+            <li>Make exercises explanations collapsable</li>
+            <li>Leave only titles of exercises</li>
+          </ul>
+        </li>
+
       </ol>
     </>
   )

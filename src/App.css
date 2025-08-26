@@ -45,3 +45,11 @@ button[type="submit"] {
 .resetButton {
   border: solid firebrick;
 }
+
+.v-field {
+  margin: 10px 10px 10px 0px;
+  display: grid;
+}
+.v-field input {
+  margin-top: 15px;
+}

@@ -42,7 +42,7 @@ export default function Home() {
         </li>
 
         <li>
-          <h3>Random Quote</h3>
+          <h3> <Link to={"/quotes"}>Random Quote</Link></h3>
           <ul>
             <li>Create an array of several quotes.</li>
             <li>Add a button <code>Show random quote</code>, which picks and displays one element from the array.</li>

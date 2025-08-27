@@ -53,3 +53,14 @@ button[type="submit"] {
 .v-field input {
   margin-top: 15px;
 }
+
+blockquote {
+  margin: 40px;
+  font: italic 18px/1.5 Georgia, serif;
+}
+
+footer {
+  margin-top: 30px;
+  font-style: italic;
+  text-align: right;
+}

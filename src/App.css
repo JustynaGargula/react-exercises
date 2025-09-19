@@ -72,6 +72,9 @@ footer {
 .bold {
   font-weight: bold;
 }
+#next-exercise {
+  background: lightblue;
+}
 
 @media (prefers-color-scheme: light) {
   nav a {

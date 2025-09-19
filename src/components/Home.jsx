@@ -1,7 +1,14 @@
 import {Link} from "react-router-dom";
+import {useEffect} from "react";
 
 
 export default function Home() {
+
+  useEffect(() => {
+    const el = document.getElementById("lastExercise");
+    el && el.scrollIntoView({behavior: "smooth"});
+  }, []);
+
   return (
     <>
       <h1>React exercises collection</h1>
@@ -51,7 +58,7 @@ export default function Home() {
         </li>
 
         <li>
-          <h3><Link to={"/api-users"}>API – User List</Link></h3>
+          <h3 id="lastExercise" ><Link to={"/api-users"}>API – User List</Link></h3>
           <ul>
             <li>Fetch data from an API, e.g. <code>https://jsonplaceholder.typicode.com/users</code>.</li>
             <li>Display a list of names and emails.</li>
@@ -62,7 +69,7 @@ export default function Home() {
         </li>
 
         <li>
-          <h3>Light/Dark Mode Toggle</h3>
+          <h3 id="next-exercise" >Light/Dark Mode Toggle</h3>
           <ul>
             <li>Add a button <code>Toggle theme</code>.</li>
             <li>On click, switch the app background between light and dark.</li>
@@ -104,6 +111,15 @@ export default function Home() {
           <ul>
             <li>Make exercises explanations collapsable</li>
             <li>Leave only titles of exercises</li>
+          </ul>
+        </li>
+
+        <li>
+          <h3>Display more user details</h3>
+          <ul>
+            <li>On click display details</li>
+            <li>Include other data from API such as id, ip & mac address, website</li>
+            <li>Insert that data into other (child) component</li>
           </ul>
         </li>
 

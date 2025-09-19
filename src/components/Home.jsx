@@ -51,7 +51,7 @@ export default function Home() {
         </li>
 
         <li>
-          <h3>API – User List</h3>
+          <h3><Link to={"/api-users"}>API – User List</Link></h3>
           <ul>
             <li>Fetch data from an API, e.g. <code>https://jsonplaceholder.typicode.com/users</code>.</li>
             <li>Display a list of names and emails.</li>

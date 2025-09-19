@@ -64,3 +64,17 @@ footer {
   font-style: italic;
   text-align: right;
 }
+
+.bold {
+  font-weight: bold;
+}
+
+@media (prefers-color-scheme: light) {
+  nav a {
+    color: black;
+  }
+
+  h3 a {
+    color: black;
+  }
+}

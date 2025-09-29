@@ -1,33 +1,10 @@
+
 #root {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  /*text-align: center;*/
-}
-
-nav {
-  display: flex;
-}
-
-nav a {
-  margin-right: 15px;
-  font-weight: bold;
-  font-size: larger;
-  color: white;
-}
-a:hover {
-  color: lightblue;
 }
 
 .homeLink {
   color: lightskyblue;
-}
-
-h3 a {
-  color: white;
-}
-label {
-  margin-right: 10px;
 }
 
 .field {
@@ -58,30 +35,9 @@ button[type="submit"] {
   margin-top: 15px;
 }
 
-blockquote {
-  margin: 40px;
-  font: italic 18px/1.5 Georgia, serif;
-}
-
-footer {
-  margin-top: 30px;
-  font-style: italic;
-  text-align: right;
-}
-
 .bold {
   font-weight: bold;
 }
 #next-exercise {
   background: lightblue;
-}
-
-@media (prefers-color-scheme: light) {
-  nav a {
-    color: black;
-  }
-
-  h3 a {
-    color: black;
-  }
 }

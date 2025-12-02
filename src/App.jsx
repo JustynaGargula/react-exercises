@@ -7,6 +7,7 @@ import ListFilter from "./components/ListFilter.jsx";
 import Quotes from "./components/Quotes.jsx";
 import ApiUsers from "./components/ApiUsers.jsx";
 import {useEffect, useState} from "react";
+import ImageGallery from "./components/ImageGallery.jsx";
 
 function App() {
 
@@ -29,7 +30,8 @@ function App() {
             <Link to={"/form"}>Form</Link>
             <Link to={"/list-filter"}>List Filter</Link>
             <Link to={"/quotes"}>Quotes</Link>
-            <Link to={"api-users"}>Users</Link>
+            <Link to={"/api-users"}>Users</Link>
+            <Link to={"/image-gallery"}>Image Gallery</Link>
           </nav>
 
           <button onClick={toggleTheme}>Toggle color theme</button>
@@ -44,6 +46,7 @@ function App() {
           <Route path="/list-filter" element={<ListFilter />} />
           <Route path="/quotes" element={<Quotes />} />
           <Route path="api-users" element={<ApiUsers />} />
+          <Route path="image-gallery" element={<ImageGallery />} />
         </Routes>
       </Router>
     </>

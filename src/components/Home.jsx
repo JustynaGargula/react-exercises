@@ -123,6 +123,17 @@ export default function Home() {
           </ul>
         </li>
 
+        <li>
+          <h3>Charades game</h3>
+          <ul>
+            <li>Display random word</li>
+            <li>Allow to pick category</li>
+            <li>Buttons to mark if guessed</li>
+            <li>Count points</li>
+            <li>Maybe option to choose number of words (length of round)</li>
+          </ul>
+        </li>
+
       </ol>
     </>
   )

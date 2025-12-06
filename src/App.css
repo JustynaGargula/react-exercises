@@ -58,3 +58,49 @@ button[type="submit"] {
   aspect-ratio: 1 / 1;
   border-radius: 10px;
 }
+
+/* Tło modalne */
+.image-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* Okno modalne */
+.image-window {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 95vw;
+  max-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+/* Obraz w oknie */
+.modal-image {
+  max-width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+/* Przycisk zamknięcia */
+.modal-close {
+  align-self: flex-end;
+  padding: 6px 12px;
+  background: #444;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

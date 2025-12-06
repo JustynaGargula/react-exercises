@@ -69,7 +69,7 @@ export default function Home() {
         </li>
 
         <li>
-          <h3 id="lastExercise" >Light/Dark Mode Toggle</h3>
+          <h3>Light/Dark Mode Toggle</h3>
           <ul>
             <li>Add a button <code>Toggle theme</code>.</li>
             <li>On click, switch the app background between light and dark.</li>
@@ -78,7 +78,7 @@ export default function Home() {
         </li>
 
         <li>
-          <h3 id="next-exercise" >Simple Image Gallery</h3>
+          <h3 id="lastExercise" ><Link to="/image-gallery">Simple Image Gallery</Link></h3>
           <ul>
             <li>Create an array of image URLs.</li>
             <li>Display them as thumbnails.</li>
@@ -91,7 +91,7 @@ export default function Home() {
       <h2>My or others ideas</h2>
       <ol>
         <li>
-          <h3>Improve navbar</h3>
+          <h3 id="next-exercise">Improve navbar</h3>
           <ul>
             <li>Highlight the current open link</li>
             <li>Style home page link in other way</li>

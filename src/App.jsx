@@ -45,8 +45,8 @@ function App() {
           <Route path="/form" element={<Form />} />
           <Route path="/list-filter" element={<ListFilter />} />
           <Route path="/quotes" element={<Quotes />} />
-          <Route path="api-users" element={<ApiUsers />} />
-          <Route path="image-gallery" element={<ImageGallery />} />
+          <Route path="/api-users" element={<ApiUsers />} />
+          <Route path="/image-gallery" element={<ImageGallery />} />
         </Routes>
       </Router>
     </>
